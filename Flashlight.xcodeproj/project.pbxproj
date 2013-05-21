@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3223A5E4173E845000C409FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3223A5E3173E845000C409FA /* AVFoundation.framework */; };
+		32537210174BF95600962448 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3253720F174BF95600962448 /* Icon@2x.png */; };
+		32537212174BF95900962448 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32537211174BF95900962448 /* Icon.png */; };
 		32D13F96173E820300F7AA0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D13F95173E820300F7AA0A /* UIKit.framework */; };
 		32D13F98173E820300F7AA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D13F97173E820300F7AA0A /* Foundation.framework */; };
 		32D13F9A173E820300F7AA0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D13F99173E820300F7AA0A /* CoreGraphics.framework */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3223A5E3173E845000C409FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3253720F174BF95600962448 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		32537211174BF95900962448 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		32D13F92173E820300F7AA0A /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D13F95173E820300F7AA0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32D13F97173E820300F7AA0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3223A5E4173E845000C409FA /* AVFoundation.framework in Frameworks */,
 				32D13F96173E820300F7AA0A /* UIKit.framework in Frameworks */,
 				32D13F98173E820300F7AA0A /* Foundation.framework in Frameworks */,
 				32D13F9A173E820300F7AA0A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +63,7 @@
 		32D13F89173E820300F7AA0A = {
 			isa = PBXGroup;
 			children = (
+				3223A5E3173E845000C409FA /* AVFoundation.framework */,
 				32D13F9B173E820300F7AA0A /* Flashlight */,
 				32D13F94173E820300F7AA0A /* Frameworks */,
 				32D13F93173E820300F7AA0A /* Products */,
@@ -96,6 +104,8 @@
 		32D13F9C173E820300F7AA0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32537211174BF95900962448 /* Icon.png */,
+				3253720F174BF95600962448 /* Icon@2x.png */,
 				32D13F9D173E820300F7AA0A /* Flashlight-Info.plist */,
 				32D13F9E173E820300F7AA0A /* InfoPlist.strings */,
 				32D13FA1173E820300F7AA0A /* main.m */,
@@ -163,6 +173,8 @@
 				32D13FAA173E820300F7AA0A /* Default@2x.png in Resources */,
 				32D13FAC173E820300F7AA0A /* Default-568h@2x.png in Resources */,
 				32D13FB2173E820300F7AA0A /* ViewController.xib in Resources */,
+				32537210174BF95600962448 /* Icon@2x.png in Resources */,
+				32537212174BF95900962448 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				32D13FB7173E820300F7AA0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
